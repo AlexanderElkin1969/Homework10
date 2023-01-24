@@ -7,6 +7,8 @@ public class Main {
         System.out.println("Задача 1");
         System.out.println("ФИО сотрудника — " + fullName);
         System.out.println("Задача 2");
+        fullName = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
         System.out.println("Задача 3");
     }
 }
